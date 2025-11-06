@@ -70,7 +70,7 @@ def post_user():
     html_welcome = render_template("welcome.html", username=username)
     msg = Message(
         subject="Bienvenido",
-        sender=("Hand to Hand", "handtohand87@gmail.com"),
+        sender=("First Exchange", "firstexchange2017@gmail.com"),
         recipients=[email],
         html=html_welcome,
     )
@@ -256,7 +256,7 @@ def request_reset():
 
     msg = Message(
         subject="Restablecer Contraseña",
-        sender=("Hand to Hand", "handtohand87@gmail.com"),
+        sender=("First Exchange", "firstexchange2017@gmail.com"),
         recipients=[email],
         html=html_reset,
     )

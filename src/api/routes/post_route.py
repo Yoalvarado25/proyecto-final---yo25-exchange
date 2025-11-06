@@ -76,8 +76,8 @@ def create_post():
         post_url=post_url,
     )
     msg = Message(
-        subject="Has creado un nuevo post en Hand to Hand",
-        sender=("Hand to Hand", "handtohand87@gmail.com"),
+        subject="Has creado un nuevo post en First Excahange",
+        sender=("First Exchange", "firstexchange2017@gmail.com"),
         recipients=[email],
         html=html_post,
     )
