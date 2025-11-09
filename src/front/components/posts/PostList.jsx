@@ -1,4 +1,4 @@
-ate, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { useAuth } from "../../hooks/useAuth";
 import { getPosts, deletePost } from "../../services/postApi";
 import { getUsers } from "../../services/userApi";
