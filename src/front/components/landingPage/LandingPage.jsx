@@ -1,4 +1,4 @@
-"react";
+import { useEffect } from "react";
 import "./landing-page.css";
 import { VideoPerrete } from "../VideoPerrete/VideoPerrete";
 import { CurrencyConverter } from "../currencyConverter/CurrencyConverter";
@@ -66,16 +66,16 @@ export default function LandingPage() {
 					<div className="hero-content">
 						<div className="hero-text">
 							<h1>
-								Intercambio de divisas <span className="highlight">sin comisiones</span>
+								First Exchange, tu mejor eleccion!!!<span className="highlight">Con las mas bajas comisiones</span>
 							</h1>
 							<p>
-								Publica tu oferta o encuentra la de otra persona. Conecta mediante chat
-								seguro y cierra el intercambio en tu ciudad y moneda preferida.
+								Ofrecemos las mas bajas comisiones del mercado, las mejores herramientas,
+								 y contamos con un chat de apoyo entre usuarios.
 							</p>
 							<div className="trust-badges">
-								<span className="badge">Sin comisiones ocultas</span>
-								<span className="badge">Trato directo entre personas</span>
-								<span className="badge">Plataforma segura</span>
+								<span className="badge">Bajas comisiones</span>
+								<span className="badge">Chat de apoyo entre usuarios</span>
+								<span className="badge"> Las mejores Herramientas</span>
 							</div>
 							<VideoPerrete />
 						</div>
@@ -84,23 +84,25 @@ export default function LandingPage() {
 							<div className="value-cards">
 								<div className="value-card">
 									<div className="value-icon"><BadgeDollarSign size={35} color="#2c3e50" strokeWidth={1.50} /></div>
-									<h3>0% Comisiones</h3>
-									<p>Intercambia sin pagar nada extra. Solo acuerdas el tipo de cambio con la otra persona.</p>
+									<h3> Las mejores herramientas </h3>
+									<p>Contamos con una plataforma moderna, 
+										Monitores de precio en tiempo real,
+										tiempo de transaccion en segundos.</p>
 								</div>
 								<div className="value-card">
 									<div className="value-icon"><Handshake size={35} color="#2c3e50" strokeWidth={1.50} /></div>
-									<h3>Acuerdos instantáneos</h3>
-									<p>Encuentra a alguien interesado y conecta al instante mediante chat integrado.</p>
+									<h3>Brokers profecionales</h3>
+									<p>Contamos con un grupo de brokers experimentados, que realizan transacciones en segundos.</p>
 								</div>
 								<div className="value-card">
 									<div className="value-icon"><ShieldCheck size={35} color="#2c3e50" strokeWidth={1.50} /></div>
-									<h3>Intercambio entre personas</h3>
-									<p>Nosotros ponemos la plataforma, el acuerdo lo haces tú directamente con otro usuario.</p>
+									<h3>Chat entre usuarios</h3>
+									<p>El chat entre usuarios, sirve como grupo de apoyo, para tener mas clarida a la hora de operar.</p>
 								</div>
 								<div className="value-card">
 									<div className="value-icon"><HandCoins size={36} color="#2c3e50" strokeWidth={1.50} /></div>
-									<h3>150+ Monedas</h3>
-									<p>Encuentra a alguien que busque tu moneda, desde EUR y USD hasta divisas exóticas.</p>
+									<h3>Plataforma moderna y segura</h3>
+									<p> Nuestra plataforma es una de las mas modernas y seguras del mercado,esto te ofrece ventaja al momento de operar.</p>
 								</div>
 							</div>
 						</div>
@@ -108,85 +110,78 @@ export default function LandingPage() {
 				</section>
 
 				<section className="no-commission">
-					<h2>¿Cansado de las comisiones abusivas?</h2>
+					<h2>Paga con nuestra tarjeta y recibe el 30% de vuelta</h2>
 					<p>
-						En Hand to Hand creemos que cambiar dinero no debería costarte más dinero.
-						Comparamos con la competencia:
+						Dale uso a tus divisas por el mundo y paga en cualquier comercio con la tarjeta de First Exchange!!!
+						establecimientos y porcentajes:
 					</p>
 					<div className="commission-comparison">
 						<div className="comparison-row">
-							<span>Bancos clásicos:</span>
-							<span>3-5% de comisión</span>
+							<span>Restaurantes:</span>
+							<span>15% devuelto </span>
 						</div>
 						<div className="comparison-row">
-							<span>Casas de cambio:</span>
-							<span>2-4% de comisión</span>
+							<span>Farmacias:</span>
+							<span>10% devuelto</span>
 						</div>
 						<div className="comparison-row">
-							<span>Otros exchanges:</span>
-							<span>1-2% de comisión</span>
+							<span>Hoteles:</span>
+							<span>20% devuelto</span>
 						</div>
 						<div className="comparison-row">
-							<span style={{ marginRight: "4px" }}>Hand to Hand:</span>
-							<span>0% de comisión</span>
+							<span>Comercio Electronico:</span>
+							<span>30% devuelto</span>
 						</div>
 					</div>
 				</section>
 
 				<section className="features" id="servicios">
 					<div className="container">
-						<h2 className="section-title">¿Por qué elegir Hand to Hand?</h2>
+						<h2 className="section-title">Nuestra oferta:</h2>
 						<p className="section-subtitle">
-							No somos un banco ni una casa de cambio. Somos el punto de encuentro para que
-							usuarios se conecten y acuerden su propio intercambio de divisas.
+							somos tu aplicacion de divisas mas facil y completa del mundo.ofrecemos mas de 200 monedas, aceptamos particulares, empresas,e instituciones.
 						</p>
 						<div className="features-grid">
 							<div className="feature-card">
 								<div className="feature-icon"><ChartNoAxesCombined size={44} color="#2c3e50" strokeWidth={1.50} /></div>
-								<h3>Tipos de cambio reales</h3>
+								<h3>Operativos desde 2010</h3>
 								<p>
-									Consulta el mercado en tiempo real y acuerda directamente con la otra persona
-									el tipo de cambio que más te convenga.
+									Somos la primera Fintech espanola en obtener la Licencia MiCA.
 								</p>
 							</div>
 							<div className="feature-card">
 								<div className="feature-icon"><HeartHandshake size={44} color="#2c3e50" strokeWidth={1.50} /></div>
-								<h3>Intercambio HTH</h3>
+								<h3>Intercambio de divisas</h3>
 								<p>
-									Todo ocurre entre personas: uno publica un post con su oferta y otro usuario
-									interesado abre un chat para cerrar el trato.
+									Almacena, envia y recibe divisas, crea tu monedero gratuito.una caja fuerte asegurada con 150 millones de Euros.
 								</p>
 							</div>
 							<div className="feature-card">
 								<div className="feature-icon"><MonitorSmartphone size={44} color="#2c3e50" strokeWidth={1.50} /></div>
-								<h3>Plataforma moderna</h3>
+								<h3>Space Center</h3>
 								<p>
-									Interfaz intuitiva disponible en web y móvil. Gestiona tus intercambios desde
-									cualquier lugar en segundos.
+									Es el sistema que premia tu activida en First Exchange. cuanto mas utilices la plataforma, mejores seran tus ventajas.
 								</p>
 							</div>
 							<div className="feature-card">
 								<div className="feature-icon"><Users size={44} color="#2c3e50" strokeWidth={1.50} /></div>
-								<h3>Para empresas y particulares</h3>
+								<h3>Para avanzados</h3>
 								<p>
-									Tanto si viajas, como si tienes negocio internacional, encuentra personas con
-									quienes intercambiar divisas de forma rápida.
+									Tradin profecional de alta frecuencia, compra y vende divisas con bajas comisiones e interfaz profecional.
 								</p>
 							</div>
 							<div className="feature-card">
 								<div className="feature-icon"><BriefcaseBusiness size={44} color="#2c3e50" strokeWidth={1.5} /></div>
-								<h3>Gestión flexible</h3>
+								<h3>Prestamos rapidos</h3>
 								<p>
-									Publica tus propias condiciones, acepta las de otros usuarios o negocia el
-									intercambio a tu medida.
+									Hasta 1 millon de euros, consigue prestamos rapidos utilizando tus divisas como aval.
 								</p>
 							</div>
 							<div className="feature-card">
 								<div className="feature-icon"><MessagesSquare size={44} color="#2c3e50" strokeWidth={1.5} /></div>
-								<h3>Chat integrado</h3>
+								<h3>Custodia institucional de divisas</h3>
 								<p>
-									Comunícate con la otra parte en tiempo real antes de cerrar cualquier
-									intercambio.
+									Servicio para grandes capitales, altamente configurable, asegurado, con cumplimiento regulatorio..
 								</p>
 							</div>
 						</div>

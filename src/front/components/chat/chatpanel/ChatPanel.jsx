@@ -48,7 +48,7 @@ export default function ChatPanel({
                     <EmptyState
                         title="Selecciona un chat"
                         subtitle="Crea un chat si no tienes activos"
-                        icon={<MessageSquareMore color="#d4af37" size={44} absoluteStrokeWidth />}
+                        icon={<MessageSquareMore color=" hwb(248 0% 0%)" size={44} absoluteStrokeWidth />}
                     />
                 </div>
             )}

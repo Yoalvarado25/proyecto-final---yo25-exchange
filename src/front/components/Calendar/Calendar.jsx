@@ -31,7 +31,7 @@ const HandBadge = ({ selected = false }) => (
       sx={{
         width: 12,
         height: 12,
-        color: selected ? "#fff" : "var(--color-gold)",
+        color: selected ? "#fff" : "var(--color-blue-900)",
       }}
     />
   </span>
@@ -72,20 +72,20 @@ const CustomDay = (props) => {
             "color-mix(in srgb, var(--color-bg-2) 70%, transparent)",
           boxShadow: "0 4px 12px rgba(0,0,0,.08)",
           borderColor:
-            "color-mix(in srgb, var(--color-gold) 35%, var(--color-border))",
+            "color-mix(in srgb, var(--color-blue-900) 35%, var(--color-border))",
         },
 
         "&.MuiPickersDay-today": {
-          boxShadow: "inset 0 0 0 2px var(--color-gold)",
+          boxShadow: "inset 0 0 0 2px var(--color-blue-900)",
           backgroundColor: "transparent",
         },
 
         "&.Mui-selected, &.Mui-selected:hover": {
           background:
-            "linear-gradient(90deg, var(--color-gold), var(--color-gold-2))",
+            "linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700))",
           color: "#fff",
           borderColor: "transparent",
-          boxShadow: "0 6px 18px rgba(212,175,55,.35)",
+          boxShadow: "0 6px 18px hsla(178, 65%, 52%, 0.35)",
         },
 
         "&.MuiPickersDay-dayOutsideMonth, &.Mui-disabled": {
@@ -161,7 +161,7 @@ export const Calendar = ({ markedDates = [], value, onChange }) => {
             "&:hover": {
               boxShadow: "0 4px 12px rgba(0,0,0,.08)",
               borderColor:
-                "color-mix(in srgb, var(--color-gold) 35%, var(--color-border))",
+                "color-mix(in srgb, var(--color-blue-900) 35%, var(--color-border))",
               background:
                 "color-mix(in srgb, var(--color-bg-2) 70%, var(--color-surface))",
             },

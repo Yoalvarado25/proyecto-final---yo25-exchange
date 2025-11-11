@@ -2,7 +2,7 @@
   min-width: 22px;
   height: 22px;
   border-radius: 11px;
-  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700));
   color: #fff; /* contraste del badge */
   font-size: 12px;
   font-weight: 700;

@@ -17,9 +17,9 @@ export default function FinalizeAndScore({ postId, postOwnerId, onPostHidden }) 
     const handleFinalize = async () => {
         const confirm = await Swal.fire({
             icon: "warning",
-            title: "¿Estás seguro de finalizar tu acuerdo?",
+            title: "¿Estás seguro de realizar la transaccion?",
             showCancelButton: true,
-            confirmButtonText: "Sí, finalizar",
+            confirmButtonText: "Sí, realizar",
             cancelButtonText: "Cancelar",
             reverseButtons: true,
         });
@@ -29,7 +29,7 @@ export default function FinalizeAndScore({ postId, postOwnerId, onPostHidden }) 
 
         Swal.fire({
             title: "Procesando...",
-            html: `<p class="finalize__text">Aplicando el acuerdo...</p>`,
+            html: `<p class="finalize__text">Realizando transaccion...</p>`,
             allowOutsideClick: false,
             didOpen: () => Swal.showLoading(),
         });
@@ -46,7 +46,7 @@ export default function FinalizeAndScore({ postId, postOwnerId, onPostHidden }) 
             Swal.close();
             await Swal.fire({
                 icon: "error",
-                title: "No se pudo finalizar",
+                title: "No se pudo realizar la transaccion",
                 html: `<p class="finalize__text">${e?.message || "Inténtalo de nuevo en unos segundos."
                     }</p>`,
             });
@@ -60,7 +60,7 @@ export default function FinalizeAndScore({ postId, postOwnerId, onPostHidden }) 
 
         await Swal.fire({
             icon: "success",
-            title: "¡Acuerdo finalizado!",
+            title: "¡Transaccion realizada!",
             html: `<p class="finalize__text">Tu valoración ha sido registrada correctamente.</p>`,
             timer: 2200,
             showConfirmButton: false,
@@ -76,9 +76,9 @@ export default function FinalizeAndScore({ postId, postOwnerId, onPostHidden }) 
                 className="btn-primary finalize__btn"
                 onClick={handleFinalize}
                 disabled={loading}
-                title="Finalizar Acuerdo"
+                title="Transaccion realizada"
             >
-                {loading ? "Procesando…" : "Acuerdo finalizado"}
+                {loading ? "Procesando…" : "Transaccion realizada"}
             </button>
 
             {showRate && (

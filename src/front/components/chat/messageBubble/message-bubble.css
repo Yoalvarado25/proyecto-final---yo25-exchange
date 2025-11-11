@@ -34,8 +34,8 @@
 
 /* MODO CLARO */
 .msg-bubble--mine {
-  background: color-mix(in srgb, var(--color-gold-2) 10%, var(--color-surface) 90%);
-  border-color: color-mix(in srgb, var(--color-gold) 40%, var(--color-border));
+  background: color-mix(in srgb, var(--color-blue-700) 10%, var(--color-surface) 90%);
+  border-color: color-mix(in srgb, var(--color-blue-900) 40%, var(--color-border));
   color: var(--color-text);
 }
 .msg-bubble--other {
@@ -46,8 +46,8 @@
 
 /* MODO OSCURO */
 html.dark .msg-bubble--mine {
-  background: color-mix(in srgb, var(--color-gold) 22%, var(--color-bg-1) 78%);
-  border-color: color-mix(in srgb, var(--color-gold) 45%, var(--color-border));
+  background: color-mix(in srgb, var(--color-blue) 22%, var(--color-bg-1) 78%);
+  border-color: color-mix(in srgb, var(--color-blue) 45%, var(--color-border));
   color: var(--color-text);
 }
 html.dark .msg-bubble--other {

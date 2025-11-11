@@ -8,11 +8,11 @@
   --muted: var(--color-muted);
   --border: var(--color-border);
 
-  --accent: var(--color-gold);
+  --accent: var(--color-blue-900);
   --accent-contrast: #ffffff;
 
 
-  --active: color-mix(in srgb, var(--color-gold) 10%, var(--color-bg-1) 90%);
+  --active: color-mix(in srgb, var(--color-blue-900) 10%, var(--color-bg-1) 90%);
   --hover: color-mix(in srgb, var(--color-text) 6%, var(--color-bg-1) 94%);
 
 
@@ -32,10 +32,10 @@ html.dark {
   --muted: var(--color-muted);
   --border: var(--color-border);
 
-  --accent: var(--color-gold);
+  --accent: var(--color-blue-900);
   --accent-contrast: #ffffff;
 
-  --active: color-mix(in srgb, var(--color-gold) 14%, var(--color-bg-1) 86%);
+  --active: color-mix(in srgb, var(--color-blue-900) 14%, var(--color-bg-1) 86%);
   --hover: color-mix(in srgb, var(--color-text) 8%, var(--color-bg-1) 92%);
 
   --radius-lg: var(--radius);

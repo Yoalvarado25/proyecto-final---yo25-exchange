@@ -46,7 +46,7 @@
 }
 
 .hero-text .highlight {
-  color: var(--color-gold);
+  color: var(--color-blue-900);
   position: relative;
 }
 
@@ -57,7 +57,7 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700));
 }
 
 .hero-text p {
@@ -82,8 +82,8 @@
   border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--color-gold);
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: var(--color-blue-900);
+  border: 1px solid #73d4374d;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -111,7 +111,7 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700));
 }
 
 .value-card:hover {
@@ -122,7 +122,7 @@
 .value-icon {
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(135deg, var(--color-blue-900), var(--color-blue-700));
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -194,7 +194,7 @@
 .feature-icon {
   width: 72px;
   height: 72px;
-  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(135deg, var(--color-blue-900), var(--color-blue-700));
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -292,7 +292,7 @@
 
 .tool-placeholder {
   background: #fff;
-  border: 2px solid var(--color-gold);
+  border: 2px solid var(--color-blue-900);
   padding: 1.5rem;
   border-radius: var(--radius);
   text-align: center;
@@ -310,7 +310,7 @@
 }
 
 .tool-placeholder h3 {
-  color: var(--color-gold);
+  color: var(--color-blue-900);
   font-size: 1.3rem;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -356,7 +356,7 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(135deg, var(--color-blue-900), var(--color-blue-700));
   border: none;
   padding: 1rem 1.5rem;
   border-radius: var(--radius-btn);
@@ -364,12 +364,12 @@
   font-size: 1.05rem;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 6px 20px hsla(144, 65%, 52%, 0.3);
   text-decoration: none;
 }
 
 .btn-primary:hover {
-  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4);
+  box-shadow: 0 10px 30px hsla(144, 65%, 52%, 0.3);
 }
 
 /* dark mode */
@@ -379,7 +379,7 @@ html.dark .feature-card:hover,
 html.dark .features,
 html.dark .tool-placeholder {
   background: var(--color-surface);
-  color: var(--color-gold);
+  color: var(--color-blue-900);
   border-color: var(--color-border);
 }
 

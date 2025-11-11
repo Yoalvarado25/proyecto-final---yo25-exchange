@@ -1,4 +1,4 @@
-mport React from "react";
+import React from "react";
 import { Paperclip, X } from "lucide-react";
 import "../theme.css";
 import "./message-input.css";
@@ -50,7 +50,7 @@ export default function MessageInput({
                 uploader={onUploadImage}
                 buttonProps={{ className: "msg-input__icon-btn", title: "Adjuntar imagen", "aria-label": "Adjuntar imagen" }}
             >
-                <Paperclip size={35} color="#d4af37" />
+                <Paperclip size={35} color="hwb(248 0% 0%)" />
             </SendImages>
 
             <input
@@ -82,3 +82,4 @@ export default function MessageInput({
         </div>
     );
 }
+

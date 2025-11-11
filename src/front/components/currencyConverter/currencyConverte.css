@@ -4,7 +4,7 @@
   padding: 32px;
   background: var(--color-surface);
   border-radius: var(--radius, 12px);
-  border: 1px solid color-mix(in srgb, var(--color-gold) 22%, #e9ecef);
+  border: 1px solid color-mix(in srgb, var(--color-blue-900) 22%, #e9ecef);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   color: var(--color-text);
   position: relative;
@@ -18,7 +18,7 @@
   right: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700));
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
@@ -37,7 +37,7 @@
   display: block;
   width: 56px;
   height: 3px;
-  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700));
   margin: 10px auto 0;
   border-radius: 2px;
 }
@@ -65,7 +65,7 @@
 .converter-container button {
   width: 100%;
   padding: 14px;
-  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(135deg, var(--color-blue-900), var(--color-blue-700));
   color: #fff;
   font-size: 16px;
   font-weight: 700;

@@ -48,7 +48,7 @@ export const CurrencyConverter = () => {
     return (
 
         <div className="converter-container">
-            <h2>Conversor de Monedas</h2>
+            <h2>Conversor de Divisas</h2>
             {/* Selección de monedas 1 */}
             <div>
                 <label>De: </label>

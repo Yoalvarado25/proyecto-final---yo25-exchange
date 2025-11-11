@@ -12,7 +12,7 @@ export const Footer = () => {
             <a href="/support">Soporte</a>
           </div>
           <p>
-            &copy; 2025 Hand to Hand. Todos los derechos reservados.
+            &copy; 2025 First Exchange, Todos los derechos reservados.
           </p>
         </div>
       </footer>
