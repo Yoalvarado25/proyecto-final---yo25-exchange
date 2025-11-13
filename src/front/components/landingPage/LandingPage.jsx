@@ -1,10 +1,9 @@
 import { useEffect } from "react";
 import "./landing-page.css";
-import { VideoPerrete } from "../VideoPerrete/VideoPerrete";
+import { https://www.youtube.com/shorts/enf1aIX-CIc } from "../Videoexchange/VideoExchange";
 import { CurrencyConverter } from "../currencyConverter/CurrencyConverter";
-import { BankingGraphics } from "../BankingGraphics/BankingGraphics";
 import { Link } from "react-router-dom";
-import { BadgeDollarSign, Handshake, ShieldCheck, HandCoins, ChartNoAxesCombined, HeartHandshake, MonitorSmartphone, Users, BriefcaseBusiness, MessagesSquare } from "lucide-react";
+import { BadgeDollarSign, ChartNoAxesCombined, MonitorSmartphone, BriefcaseBusiness } from "lucide-react";
 import { useAuth } from "../../hooks/useAuth";
 import PublicRating from "../public-rating/PublicRating";
 
@@ -77,7 +76,7 @@ export default function LandingPage() {
 								<span className="badge">Chat de apoyo entre usuarios</span>
 								<span className="badge"> Las mejores Herramientas</span>
 							</div>
-							<VideoPerrete />
+							<https://www.youtube.com/shorts/enf1aIX-CIc />
 						</div>
 
 						<div className="hero-visual">
@@ -90,17 +89,17 @@ export default function LandingPage() {
 										tiempo de transaccion en segundos.</p>
 								</div>
 								<div className="value-card">
-									<div className="value-icon"><Handshake size={35} color="#2c3e50" strokeWidth={1.50} /></div>
+									<div className="value-icon"><BadgeDollarSign size={35} color="#2c3e50" strokeWidth={1.50} /></div>
 									<h3>Brokers profecionales</h3>
 									<p>Contamos con un grupo de brokers experimentados, que realizan transacciones en segundos.</p>
 								</div>
 								<div className="value-card">
-									<div className="value-icon"><ShieldCheck size={35} color="#2c3e50" strokeWidth={1.50} /></div>
+									<div className="value-icon"><BadgeDollarSign size={35} color="#2c3e50" strokeWidth={1.50} /></div>
 									<h3>Chat entre usuarios</h3>
 									<p>El chat entre usuarios, sirve como grupo de apoyo, para tener mas clarida a la hora de operar.</p>
 								</div>
 								<div className="value-card">
-									<div className="value-icon"><HandCoins size={36} color="#2c3e50" strokeWidth={1.50} /></div>
+									<div className="value-icon"><BadgeDollarSign size={36} color="#2c3e50" strokeWidth={1.50} /></div>
 									<h3>Plataforma moderna y segura</h3>
 									<p> Nuestra plataforma es una de las mas modernas y seguras del mercado,esto te ofrece ventaja al momento de operar.</p>
 								</div>
@@ -150,7 +149,7 @@ export default function LandingPage() {
 								</p>
 							</div>
 							<div className="feature-card">
-								<div className="feature-icon"><HeartHandshake size={44} color="#2c3e50" strokeWidth={1.50} /></div>
+								<div className="feature-icon"><ChartNoAxesCombined size={44} color="#2c3e50" strokeWidth={1.50} /></div>
 								<h3>Intercambio de divisas</h3>
 								<p>
 									Almacena, envia y recibe divisas, crea tu monedero gratuito.una caja fuerte asegurada con 150 millones de Euros.
@@ -164,7 +163,7 @@ export default function LandingPage() {
 								</p>
 							</div>
 							<div className="feature-card">
-								<div className="feature-icon"><Users size={44} color="#2c3e50" strokeWidth={1.50} /></div>
+								<div className="feature-icon"><ChartNoAxesCombined size={44} color="#2c3e50" strokeWidth={1.50} /></div>
 								<h3>Para avanzados</h3>
 								<p>
 									Tradin profecional de alta frecuencia, compra y vende divisas con bajas comisiones e interfaz profecional.
@@ -178,7 +177,7 @@ export default function LandingPage() {
 								</p>
 							</div>
 							<div className="feature-card">
-								<div className="feature-icon"><MessagesSquare size={44} color="#2c3e50" strokeWidth={1.5} /></div>
+								<div className="feature-icon"><ChartNoAxesCombined size={44} color="#2c3e50" strokeWidth={1.5} /></div>
 								<h3>Custodia institucional de divisas</h3>
 								<p>
 									Servicio para grandes capitales, altamente configurable, asegurado, con cumplimiento regulatorio..
@@ -190,11 +189,11 @@ export default function LandingPage() {
 
 				<section className="tools" id="herramientas">
 					<div className="container">
-						<h2 className="section-title">Herramientas profesionales</h2>
+						<h2 className="section-title">+200 monedas</h2>
 						<div className="tools-grid">
 							<div className="tool-placeholder">
-								<h3>📊 Monitor de tipos de cambio</h3>
-								<BankingGraphics />
+								
+								<https://up.yimg.com/ib/th/id/OIP.RtNrADKauU8c-mVAS-gR9QHaDS?pid=Api&rs=1&c=1&qlt=95&w=261&h=116 />
 							</div>
 							<div className="tool-placeholder">
 								<h3>🧮 Calculadora de conversión</h3>
@@ -207,14 +206,13 @@ export default function LandingPage() {
 
 			<section className="cta-section" id="contacto">
 				<div className="container">
-					<h2>Comienza a ahorrar en tus cambios de divisas</h2>
+					<h2>First Exchange</h2>
 					<p>
-						Únete a miles de personas que ya intercambian directamente sin comisiones ni
-						intermediarios bancarios.
+						Únete a First Exchange, y gana hasta un 30% devuelto al usar nuestra targeta en tus establecimientos favoritos.
 					</p>
 				</div>
 				<Link to="/signup" className="btn-primary">
-					¿Aún no estás registrado?
+					¿Registrate ahora?
 				</Link>
 			</section>
 
