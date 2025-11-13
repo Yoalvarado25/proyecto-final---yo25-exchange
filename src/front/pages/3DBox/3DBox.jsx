@@ -283,7 +283,7 @@ export const AaaBox = () => {
                         <div className="row">
                             <div className="col">
                                 <h1><strong>404</strong></h1>
-                                <p className="small">– An error has occurred. –</p>
+                                <p className="small">– algo paso... –</p>
                             </div>
                         </div>
                     </div>

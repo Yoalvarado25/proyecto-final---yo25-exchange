@@ -9,33 +9,33 @@ export const Support = () => {
           <article className="support-content">
             <h1 className="support-title">Centro de Soporte</h1>
             <p className="support-updated">
-              <strong>Última actualización:</strong> 30 de septiembre de 2025
+              <strong>Última actualización:</strong> 17 de Noviembre de 2025
             </p>
-            <a href="#perretebot" className="btn btn-outline-warning">Ir al chatbot</a>
+            <a className="btn btn-outline-warning">Ir al chatbot</a>
             <p>
               <strong>Plataforma:</strong>{" "}
-              <span className="highlight">Hand to Hand</span>
+              <span className="highlight">first Exchange</span>
             </p>
 
             <h2>1. Preguntas Frecuentes (FAQ)</h2>
             <ul className="faq-list">
               <li>
-                <strong>¿Es Hand to Hand una casa de cambio?</strong><br />
-                No. Hand to Hand es una plataforma de contacto entre usuarios. No
-                realizamos operaciones de cambio ni actuamos como intermediarios
+                <strong>¿Es First Exchange una casa de cambio?</strong><br />
+                 si
+                realizamos operaciones de cambio y actuamos como intermediarios
                 financieros.
               </li>
               <li>
                 <strong>¿Qué pasa si tengo un problema con otro usuario?</strong><br />
                 Te recomendamos contactar directamente con el otro usuario e
-                intentar resolver la situación de forma amistosa. Hand to Hand no
+                intentar resolver la situación de forma amistosa. FirstExchange no
                 media ni valida los acuerdos entre partes.
               </li>
               <li>
                 <strong>¿Puedo eliminar mi cuenta?</strong><br />
                 Sí. Puedes solicitar la eliminación de tu cuenta escribiéndonos a{" "}
-                <a href="mailto:soporte@handtohand.exchange">
-                  soporte@handtohand.exchange
+                <a href="mailto:soporte@first.exchange">
+                  soporte@first.exchange
                 </a>.
               </li>
               <li>
@@ -53,20 +53,20 @@ export const Support = () => {
             <ul className="contact-list">
               <li>
                 <strong>Soporte general:</strong>{" "}
-                <a href="mailto:soporte@handtohand.exchange">
-                  soporte@handtohand.exchange
+                <a href="mailto:soporte@first.exchange">
+                  soporte@first.exchange
                 </a>
               </li>
               <li>
                 <strong>Privacidad y datos personales:</strong>{" "}
-                <a href="mailto:privacidad@handtohand.exchange">
-                  privacidad@handtohand.exchange
+                <a href="mailto:privacidad@first.exchange">
+                  privacidad@first.exchange
                 </a>
               </li>
               <li>
                 <strong>Consultas legales:</strong>{" "}
-                <a href="mailto:legal@handtohand.exchange">
-                  legal@handtohand.exchange
+                <a href="mailto:legal@first.exchange">
+                  legal@first.exchange
                 </a>
               </li>
             </ul>
@@ -75,8 +75,8 @@ export const Support = () => {
             <p>
               Si detectas una conducta sospechosa, estafa o uso indebido de la
               plataforma, por favor repórtalo inmediatamente a{" "}
-              <a href="mailto:seguridad@handtohand.exchange">
-                seguridad@handtohand.exchange
+              <a href="mailto:seguridad@first.exchange">
+                seguridad@first.exchange
               </a>. Tu colaboración es clave para mantener una comunidad segura.
             </p>
 

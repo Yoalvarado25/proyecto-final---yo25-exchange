@@ -28,7 +28,7 @@ export function ResetPasswordRequest() {
 
       setMessage(
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
-          <CircleCheckBig size={35} color="#d4af37" strokeWidth={0.5} />
+          <CircleCheckBig size={35} color="hwb(248 0% 0%)" strokeWidth={0.5} />
           <span>Correo enviado. Por favor, revisa tu bandeja de entrada.</span>
         </div>
       );

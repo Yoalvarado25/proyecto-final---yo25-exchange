@@ -26,7 +26,7 @@
 .privacy-title {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: var(--color-gold);
+  color: var(--color-blue-900);
 }
 
 .privacy-updated {
@@ -36,7 +36,7 @@
 }
 
 .highlight {
-  color: var(--color-gold-2);
+  color: var(--color-blue-700);
   font-weight: bold;
 }
 
