@@ -65,7 +65,7 @@ export default function LandingPage() {
 					<div className="hero-content">
 						<div className="hero-text">
 							<h1>
-								First Exchange, tu mejor eleccion!!!<span className="highlight">Con las mas bajas comisiones</span>
+								First Exchange, tu mejor eleccion!!!<span className="badge">Con las mas bajas comisiones</span>
 							</h1>
 							<p>
 								Ofrecemos las mas bajas comisiones del mercado, las mejores herramientas,
@@ -193,7 +193,7 @@ export default function LandingPage() {
 						<div className="tools-grid">
 							<div className="tool-placeholder">
 								
-								<https://up.yimg.com/ib/th/id/OIP.RtNrADKauU8c-mVAS-gR9QHaDS?pid=Api&rs=1&c=1&qlt=95&w=261&h=116 />
+								<img src= https://up.yimg.com/ib/th/id/OIP.RtNrADKauU8c-mVAS-gR9QHaDS?pid=Api&rs=1&c=1&qlt=95&w=261&h=116 />
 							</div>
 							<div className="tool-placeholder">
 								<h3>🧮 Calculadora de conversión</h3>

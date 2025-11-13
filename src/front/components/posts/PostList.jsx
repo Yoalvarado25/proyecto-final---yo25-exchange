@@ -7,7 +7,6 @@ import "./postlist.css";
 import { Plane, Trash2, ListFilter } from "lucide-react";
 import "../../index.css";
 import Swal from "sweetalert2";
-import Perrete from "../../assets/img/Perretefile.png"
 
 export const PostList = ({ refresh = 0 }) => {
 	const { token, user } = useAuth();
@@ -189,7 +188,6 @@ export const PostList = ({ refresh = 0 }) => {
 							<li key={post.id} className="post-item">
 								<div className="post-body-horizontal">
 									<div className="post-user">
-										<img src={author?.image || Perrete} alt="avatar" className="post-avatar" />
 										<h4 className="post-author">{author?.username}</h4>
 									</div>
 									<section className="post-info">

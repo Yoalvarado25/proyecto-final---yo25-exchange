@@ -217,7 +217,7 @@
 }
 
 .no-commission {
-  background: #1a252f;
+  background: hsl(230, 96%, 19%);
   padding: 3.5rem 1rem;
   text-align: center;
   position: relative;

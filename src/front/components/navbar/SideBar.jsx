@@ -87,15 +87,15 @@ export function UserMenuSidebar({ open, onClose, restoreFocusTo }) {
 
           <ul className="ums-menu">
             <header className="ums-header"><ButtonAvatar />{user?.username}</header>
-            <li><button onClick={go("/dasborde")}><CircleUserRound size={30} color="#d4af37" strokeWidth={1.25} absoluteStrokeWidth />Perfil</button></li>
-            <li><button onClick={go("/posts")}><Landmark size={30} color="#d4af37" strokeWidth={1.25} absoluteStrokeWidth />Posts</button></li>
-            <li><button onClick={go("/chats")}><MessageCircleMore size={30} color="#d4af37" strokeWidth={1.25} absoluteStrokeWidth />Chats</button></li>
+            <li><button onClick={go("/dasborde")}><CircleUserRound size={30} color=" hwb(248 0% 0%)" strokeWidth={1.25} absoluteStrokeWidth />Perfil</button></li>
+            <li><button onClick={go("/posts")}><Landmark size={30} color=" hwb(248 0% 0%)" strokeWidth={1.25} absoluteStrokeWidth />Posts</button></li>
+            <li><button onClick={go("/chats")}><MessageCircleMore size={30} color=" hwb(248 0% 0%)" strokeWidth={1.25} absoluteStrokeWidth />Chats</button></li>
           </ul>
 
           <div className="ums-links">
-            <Mail size={16} color="#d4af37" strokeWidth={1.25} />
+            <Mail size={16} color=" hwb(248 0% 0%)" strokeWidth={1.25} />
             <a href="/support">Contacto</a>
-            <CircleQuestionMark size={16} color="#d4af37" strokeWidth={1.25} />
+            <CircleQuestionMark size={16} color=" hwb(248 0% 0%)" strokeWidth={1.25} />
             <a href="/support">Preguntas Frecuentes / Chatbot</a>
           </div>
 

@@ -83,7 +83,7 @@ export default function PublicRating() {
               key={n}
               size={48}
               strokeWidth={1.25}
-              color={n <= selected ? "#d4af37" : "#ccc"}
+              color={n <= selected ? " hwb(248 0% 0%)" : "#ccc"}
               className="star-icon"
               onClick={() => handleRating(n)}
             />

@@ -67,7 +67,7 @@ export const FormNewPassword = () => {
       if (response.ok) {
         setMessage(
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
-            <CircleCheckBig size={35} color="#d4af37" strokeWidth={0.5} />
+            <CircleCheckBig size={35} color="hwb(248 0% 0%)" strokeWidth={0.5} />
             <span>Contraseña actualizada correctamente.</span>
           </div>
         );

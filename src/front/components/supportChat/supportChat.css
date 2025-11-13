@@ -36,7 +36,7 @@
 
 .chatbot-message.user {
   align-self: flex-end;
-  background-color: var(--color-gold-2);
+  background-color: var(--color-blue-700);
   color: #000;
   border-radius: 12px 12px 0 var(--radius-btn);
   text-align: left;
@@ -101,14 +101,14 @@
 }
 
 .chatbot-input-box input[type="text"]:focus {
-  border-color: var(--color-gold);
+  border-color: var(--color-blue-900);
   box-shadow: 0 0 0 3px var(--input-ring);
 }
 
 .chatbot-input-box button {
   margin-top: 8px;
   padding: 10px;
-  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-2));
+  background: linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700));
   color: #fff;
   border: none;
   border-radius: var(--radius-btn);
@@ -118,6 +118,6 @@
 }
 
 .chatbot-input-box button:hover {
-  background: linear-gradient(90deg, var(--color-gold-2), var(--color-gold));
+  background: linear-gradient(90deg, var(--color-blue-700), var(--color-blue-900));
 }
 

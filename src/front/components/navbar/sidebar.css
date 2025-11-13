@@ -23,7 +23,7 @@
   max-width: 100vw;
   background: var(--color-bg-1);
   color: var(--color-text);
-  border-left: 1px solid color-mix(in srgb, var(--color-gold) 30%, #ffffff);
+  border-left: 1px solid color-mix(in srgb, var(--color-blue-900) 30%, #ffffff);
   box-shadow: -10px 0 30px rgba(0, 0, 0, 0.12);
   transform: translateX(106%);
   transition: transform 0.36s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -80,7 +80,7 @@
 
 .ums-menu li button:hover {
   background: var(--color-bg-2);
-  color: var(--color-gold);
+  color: var(--color-blue-900);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04) inset;
 }
 
@@ -91,7 +91,7 @@
 .btn-logout.ums-full {
   width: 100%;
   margin-top: 8px;
-  background: linear-gradient(135deg, #cc5a52, #a0433c); /* rojo elegante */
+  background: linear-gradient(135deg, #cc5a52, #a0433c); 
   color: white;
   border: none;
   padding: 11px 14px;
@@ -131,7 +131,7 @@
 }
 
 .ums-links a:hover {
-  color: var(--color-gold);
+  color: var(--color-blue-900);
 }
 
 

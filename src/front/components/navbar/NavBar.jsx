@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "./navbar.css"
 import { useAuth } from "../../hooks/useAuth";
 import { Link } from "react-router-dom";
-import logoUrl from "../../assets/img/FINALLOGO.png"
+import logoUrl from "../../assets/img/rigo-baby.jpg"
 import { ButtonAvatar } from "./ButtonAvatar"
 import { UserMenuSidebar } from "./SideBar"
 import ThemeToggle from "../theme/ThemeToggle";
@@ -19,8 +19,8 @@ export const NavBar = () => {
       <nav aria-label="Principal">
         <div className="nav-container">
           <Link to="/" className="logo" aria-label="Ir al inicio">
-            <img src={logoUrl} alt="Hand To Hand Logo" className="logo-img" />
-            <span className="logo-text">Hand to Hand</span>
+            <img src={logoUrl} alt="Fisrt Exchange Logo" className="logo-img" />
+            <span className="logo-text">First Exchange</span>
           </Link>
 
           <div className="navbar-actions">

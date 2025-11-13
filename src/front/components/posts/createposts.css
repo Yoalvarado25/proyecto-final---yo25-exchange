@@ -97,7 +97,7 @@
 
 .control:focus,
 .control:focus-visible {
-  border-color: var(--color-gold);
+  border-color: var(--color-blue-900);
   box-shadow: 0 0 0 3px rgba(212,175,55,0.20);
   background: #ffffff;
 }
@@ -137,7 +137,7 @@ select.control option {
   border: none;
   cursor: pointer;
   color: var(--color-text);
-  background-color: var(--color-gold);
+  background-color: var(--color-blue-900);
   box-shadow: var(--shadow-1);
   overflow: hidden;
   white-space: nowrap;
