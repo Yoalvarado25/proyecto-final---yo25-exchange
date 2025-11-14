@@ -20,7 +20,7 @@ def submit_rating():
     if not score or not (1 <= score <= 5):
         return jsonify({"error": "Score must be between 1 and 5"}), 400
 
-    rating = PlatformRating(user_id=user_id, score=score)
+    rating = PlatformRating(user_id=int(user_id), score=score)
     db.session.add(rating)
     db.session.commit()
 
@@ -48,7 +48,7 @@ def get_rating_summary():
 @jwt_required()
 def get_user_rating():
     user_id = get_jwt_identity()
-    rating = PlatformRating.query.filter_by(user_id=user_id, is_active=True).first()
+    rating = PlatformRating.query.filter_by(user_id=int(user_id), is_active=True).first()
     if rating:
         return jsonify(rating.serialize())
     return jsonify({"score": None})
@@ -64,7 +64,7 @@ def update_rating():
     if not (1 <= score <= 5):
         return jsonify({"error": "Score must be between 1 and 5"}), 400
 
-    rating = PlatformRating.query.filter_by(user_id=user_id).first()
+    rating = PlatformRating.query.filter_by(user_id=int(user_id)).first()
     if rating:
         rating.score = score
         db.session.commit()
