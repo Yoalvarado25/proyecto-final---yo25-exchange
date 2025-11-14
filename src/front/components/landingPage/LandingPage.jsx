@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./landing-page.css";
-import { https://www.youtube.com/shorts/enf1aIX-CIc } from "../Videoexchange/VideoExchange";
+import { VideoExchange} from "../Videoexchange/VideoExchange";
 import { CurrencyConverter } from "../currencyConverter/CurrencyConverter";
 import { Link } from "react-router-dom";
 import { BadgeDollarSign, ChartNoAxesCombined, MonitorSmartphone, BriefcaseBusiness } from "lucide-react";
@@ -76,7 +76,7 @@ export default function LandingPage() {
 								<span className="badge">Chat de apoyo entre usuarios</span>
 								<span className="badge"> Las mejores Herramientas</span>
 							</div>
-							<https://www.youtube.com/shorts/enf1aIX-CIc />
+							 <VideoExchange/>
 						</div>
 
 						<div className="hero-visual">
@@ -192,8 +192,6 @@ export default function LandingPage() {
 						<h2 className="section-title">+200 monedas</h2>
 						<div className="tools-grid">
 							<div className="tool-placeholder">
-								
-								<img src= https://up.yimg.com/ib/th/id/OIP.RtNrADKauU8c-mVAS-gR9QHaDS?pid=Api&rs=1&c=1&qlt=95&w=261&h=116 />
 							</div>
 							<div className="tool-placeholder">
 								<h3>🧮 Calculadora de conversión</h3>

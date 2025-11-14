@@ -11,7 +11,6 @@ import enLocale from "i18n-iso-countries/langs/en.json";
 import esLocale from "i18n-iso-countries/langs/es.json";
 import dayjs from "dayjs";
 import { Send } from "lucide-react";
-import Perrete from "../../../assets/img/Perretefile.png"
 import "./dasborde.css";
 
 countries.registerLocale(enLocale);
@@ -338,7 +337,6 @@ export const Dasborde = () => {
                   <li key={post.id} className="post-item">
                     <div className="post-body-horizontal">
                       <div className="post-user">
-                        <img className="post-avatar" src={image || Perrete} alt={name} loading="lazy" />
                         <h4 className="post-author" title={name}>{name}</h4>
                       </div>
                       <div className="post-info">

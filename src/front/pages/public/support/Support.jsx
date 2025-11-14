@@ -89,13 +89,12 @@ export const Support = () => {
           </article>
 
           <aside className="support-tip">
-            <strong>Consejo:</strong> Antes de intercambiar divisas, verifica cuidadosamente
-            la reputación y datos del otro usuario. Nunca compartas contraseñas ni
+            <strong>Consejo:</strong>  Nunca compartas contraseñas ni
             información sensible.
           </aside>
         </div>
       </section>
-      <section id="perretebot">
+      <section >
         <SupportChat />
       </section>
     </>

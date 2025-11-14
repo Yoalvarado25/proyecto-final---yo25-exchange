@@ -619,4 +619,4 @@ RESPUESTAS = {
     "¿Por qué no hay un botón de emergencia para fraudes?": "Estamos evaluando implementar herramientas de respuesta rápida.",
     "¿Por qué no puedo usar la plataforma sin aceptar las cookies?": "Las cookies ayudan a mejorar su experiencia y algunas son esenciales para el funcionamiento.",
     "¿Por qué no me permiten cambiar mi número de teléfono fácilmente?": "Para proteger su cuenta, algunas modificaciones requieren verificaciones adicionales.",
-   
+   }

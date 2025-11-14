@@ -9,8 +9,8 @@ import { PublicLayout } from "./layout/Public.layout";
 import { AuthLayout } from "./layout/Auth.layout";
 import { UserLayout } from "./layout/User.layout";
 import { Home } from "./pages/Home";
-import { SignUp } from "./pages/auth/singup/SignUp"
-import { LogIn } from "./pages/auth/login/LogIn"
+import { SignUp } from "./pages/auth/singup/SignUp";
+import { LogIn } from "./pages/auth/login/logIn";
 import { PostsPage } from "./pages/public/posts/PostPage";
 import { ResetPasswordRequest } from "./components/ResetPasswordRequest";
 import ChatPage from "./pages/chat/ChatPage";

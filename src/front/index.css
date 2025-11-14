@@ -20,7 +20,7 @@
   --nav-text: var(--color-text);
   --nav-border: rgba(212, 175, 55, 0.2);
   --link: var(--color-text);
-  --link-hover: var(--color-gold);
+  --link-hover: var(--color-blue-900);
 
   --input-bg: var(--color-surface);
   --input-text: var(--color-text);
@@ -33,7 +33,7 @@
 
 :root {
   --swal-border: 1px solid rgba(44, 62, 80, 0.12);
-  --swal-gold: var(--color-gold);
+  --swal-gold: var(--color-blue-900);
   --swal-surface: var(--color-surface);
   --swal-text: var(--color-text);
   --swal-muted: var(--color-muted);
@@ -55,7 +55,7 @@ html.dark {
   --nav-text: #e6eef6;
   --nav-border: #1f2a3b;
   --link: #dbe7f3;
-  --link-hover: var(--color-gold);
+  --link-hover: var(--color-blue-900);
 
   --input-bg: #0f1724;
   --input-text: #e6eef6;
@@ -88,7 +88,7 @@ body {
   background: var(--swal-surface) !important;
   color: var(--swal-text) !important;
   border: var(--swal-border);
-  border-top: 4px solid var(--swal-gold);
+  border-top: 4px solid var(--swal-blue);
   border-radius: var(--radius, 12px);
   box-shadow: var(--shadow-card, 0 4px 20px rgba(0, 0, 0, 0.08));
 }
@@ -105,7 +105,7 @@ body {
 }
 
 .swal2-icon {
-  border: 2px solid var(--swal-gold) !important;
+  border: 2px solid var(--swal-blue) !important;
   box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.12);
   border-radius: 999px !important;
 }
@@ -121,8 +121,8 @@ body {
 .swal2-actions .swal2-confirm {
   background: linear-gradient(
     90deg,
-    var(--color-gold),
-    var(--color-gold-2)
+    var(--color-blue-900),
+    var(--color-blue-700)
   ) !important;
   color: #fff !important;
   border: none !important;
@@ -158,7 +158,7 @@ textarea::placeholder {
 input:focus,
 select:focus,
 textarea:focus {
-  border-color: var(--color-gold);
+  border-color: var(--color-blue-900);
   box-shadow: 0 0 0 3px var(--input-ring);
 }
 

@@ -8,7 +8,6 @@ from api.mail_config import mail
 import cloudinary
 import cloudinary.uploader
 import os
-from cloudinary import CloudinaryImage
 from datetime import timedelta
 
 
