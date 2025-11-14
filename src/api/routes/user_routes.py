@@ -66,18 +66,25 @@ def post_user():
     )
     new_user.set_password(password)
 
-    html_welcome = render_template("welcome.html", username=username)
-    msg = Message(
-        subject="Bienvenido",
-        sender=("First Exchange", "firstexchange2017@gmail.com"),
-        recipients=[email],
-        html=html_welcome,
-    )
-
-    mail.send(msg)
-
+    # Guardar usuario primero
     db.session.add(new_user)
     db.session.commit()
+
+    # Intentar enviar email de bienvenida (opcional, no bloquea el registro)
+    try:
+        html_welcome = render_template("welcome.html", username=username)
+        msg = Message(
+            subject="Bienvenido",
+            sender=("First Exchange", "firstexchange2017@gmail.com"),
+            recipients=[email],
+            html=html_welcome,
+        )
+        mail.send(msg)
+        print(f"✅ Email de bienvenida enviado a {email}")
+    except Exception as e:
+        # Log del error pero continuar sin fallar
+        print(f"⚠️  No se pudo enviar email de bienvenida: {e}")
+
     return jsonify({"msg": "User created"})
 
 
