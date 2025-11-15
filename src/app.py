@@ -30,14 +30,14 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 CORS(app, resources={
      r"/api/*": {"origins": os.getenv('VITE_FRONTEND_URL')}}, supports_credentials=True)
-app.register_blueprint(user_bp)
-app.register_blueprint(rating_bp, url_prefix='/api')
+
 
 
 # Setup the Flask-JWT-Extended extension
 app.config["JWT_SECRET_KEY"] = os.getenv('JWT_SECRET_KEY','change-me')
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(minutes=30)
 app.config["JWT_REFRESH_TOKEN_EXPIRES"] = timedelta(days=2)
+app.config["JWT_TOKEN_LOCATION"] = ["headers"]
 jwt = JWTManager(app)
 
 # database condiguration
@@ -60,7 +60,8 @@ setup_commands(app)
 
 # Add all endpoints form the API with a "api" prefix
 app.register_blueprint(api, url_prefix='/api')
-
+app.register_blueprint(user_bp)
+app.register_blueprint(rating_bp, url_prefix='/api')
 # Handle/serialize errors like a JSON object
 
 
