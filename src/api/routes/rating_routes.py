@@ -46,9 +46,8 @@ def get_rating_summary():
 
 @rating_bp.route("/platform-rating/user", methods=["GET"])
 @jwt_required()
-
 def get_user_rating():
-    return "hola"
+    
     user_id = get_jwt_identity()
     rating = PlatformRating.query.filter_by(user_id=int(user_id), is_active=True).first()
     if rating:
