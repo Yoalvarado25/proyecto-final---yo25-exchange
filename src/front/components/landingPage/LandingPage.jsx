@@ -1,9 +1,8 @@
 import { useEffect } from "react";
 import "./landing-page.css";
-import { VideoExchange} from "../Videoexchange/VideoExchange";
 import { CurrencyConverter } from "../currencyConverter/CurrencyConverter";
 import { Link } from "react-router-dom";
-import { BadgeDollarSign, ChartNoAxesCombined, MonitorSmartphone, BriefcaseBusiness } from "lucide-react";
+import { BadgeDollarSign, ChartNoAxesCombined, MonitorSmartphone, BriefcaseBusiness, Apple, Star} from "lucide-react";
 import { useAuth } from "../../hooks/useAuth";
 import PublicRating from "../public-rating/PublicRating";
 
@@ -65,18 +64,14 @@ export default function LandingPage() {
 					<div className="hero-content">
 						<div className="hero-text">
 							<h1>
-								First Exchange, tu mejor eleccion!!!<span className="badge">Con las mas bajas comisiones</span>
+								First Exchange, tu mejor eleccion!!!<span className="badge">Quienes somos, Nuestra Historia</span>
 							</h1>
 							<p>
-								Ofrecemos las mas bajas comisiones del mercado, las mejores herramientas,
-								 y contamos con un chat de apoyo entre usuarios.
+								First Exchange se fundó en 2010 con base en España (Europa) para ayudar a personas, empresas e instituciones a acceder, comerciar y gestionar divisas y activos digitales de forma sencilla y segura.
+                                Hoy la compañía está formada por un equipo multidisciplinar de más de 150 profesionales especializados en la tecnología de punta. Firts Exchange tiene como misión facilitar el acceso a las Divisas
+								en Europa y el resto del mundo, proporcionando una plataforma segura y fácil de usar para la transacción y gestión de activos digitales. Buscamos democratizar el acceso a las finanzas globales a través de la tecnología.
 							</p>
-							<div className="trust-badges">
-								<span className="badge">Bajas comisiones</span>
-								<span className="badge">Chat de apoyo entre usuarios</span>
-								<span className="badge"> Las mejores Herramientas</span>
-							</div>
-							 <VideoExchange/>
+		
 						</div>
 
 						<div className="hero-visual">
@@ -99,7 +94,7 @@ export default function LandingPage() {
 									<p>El chat entre usuarios, sirve como grupo de apoyo, para tener mas clarida a la hora de operar.</p>
 								</div>
 								<div className="value-card">
-									<div className="value-icon"><BadgeDollarSign size={36} color="#2c3e50" strokeWidth={1.50} /></div>
+									<div className="value-icon"><MonitorSmartphone size={36} color="#2c3e50" strokeWidth={1.50} /></div>
 									<h3>Plataforma moderna y segura</h3>
 									<p> Nuestra plataforma es una de las mas modernas y seguras del mercado,esto te ofrece ventaja al momento de operar.</p>
 								</div>
@@ -109,36 +104,43 @@ export default function LandingPage() {
 				</section>
 
 				<section className="no-commission">
-					<h2>Paga con nuestra tarjeta y recibe el 30% de vuelta</h2>
+					<h2>Paga con nuestra tarjeta y recibe hasta el 30% de vuelta</h2>
 					<p>
-						Dale uso a tus divisas por el mundo y paga en cualquier comercio con la tarjeta de First Exchange!!!
+						Dale uso a tus divisas por el mundo, y paga en cualquier comercio con la tarjeta de First Exchange!!!
 						establecimientos y porcentajes:
+
 					</p>
-					<div className="commission-comparison">
-						<div className="comparison-row">
-							<span>Restaurantes:</span>
-							<span>15% devuelto </span>
-						</div>
-						<div className="comparison-row">
-							<span>Farmacias:</span>
-							<span>10% devuelto</span>
-						</div>
-						<div className="comparison-row">
-							<span>Hoteles:</span>
-							<span>20% devuelto</span>
-						</div>
-						<div className="comparison-row">
-							<span>Comercio Electronico:</span>
-							<span>30% devuelto</span>
-						</div>
-					</div>
+					<div className="features-grid">
+							<div className="feature-card">
+								<div className="feature-icon"><Star size={44} color="#2c3e50" strokeWidth={1.50} /></div>
+								<h3>Farmacias</h3>
+								<p>
+								 Compra en farmacias a nivel mundial, y recibe hasta un 15% devuelto.
+								</p>
+							</div>
+							<div className="feature-card">
+								<div className="feature-icon"><Apple size={44} color="#2c3e50" strokeWidth={1.50} /></div>
+								<h3>Restaurantes</h3>
+								<p>
+								Compra en cientos de miles de Restaurantes a nivel mundial, y recibe un 20% devuelto.
+								</p>
+							</div>
+							<div className="feature-card">
+								<div className="feature-icon"><MonitorSmartphone size={44} color="#2c3e50" strokeWidth={1.50} /></div>
+								<h3>Comercio Electronico</h3>
+								<p>
+									Compra en cientos de comercios electronicos de tu preferencia y obten hasta un 30% devuelto.
+								</p>
+								</div>
+								</div>
+
 				</section>
 
 				<section className="features" id="servicios">
 					<div className="container">
 						<h2 className="section-title">Nuestra oferta:</h2>
 						<p className="section-subtitle">
-							somos tu aplicacion de divisas mas facil y completa del mundo.ofrecemos mas de 200 monedas, aceptamos particulares, empresas,e instituciones.
+							Somos tu aplicacion de divisas mas facil y completa del mundo.ofrecemos mas de 200 monedas, aceptamos particulares, empresas,e instituciones.
 						</p>
 						<div className="features-grid">
 							<div className="feature-card">
@@ -166,7 +168,7 @@ export default function LandingPage() {
 								<div className="feature-icon"><ChartNoAxesCombined size={44} color="#2c3e50" strokeWidth={1.50} /></div>
 								<h3>Para avanzados</h3>
 								<p>
-									Tradin profecional de alta frecuencia, compra y vende divisas con bajas comisiones e interfaz profecional.
+									Trading profecional de alta frecuencia, compra y vende divisas con bajas comisiones e interfaz profesional.
 								</p>
 							</div>
 							<div className="feature-card">
@@ -189,12 +191,12 @@ export default function LandingPage() {
 
 				<section className="tools" id="herramientas">
 					<div className="container">
-						<h2 className="section-title">+200 monedas</h2>
+						<h2 className="section-title">Socios accionistas de First Exchange</h2>
 						<div className="tools-grid">
 							<div className="tool-placeholder">
 							</div>
 							<div className="tool-placeholder">
-								<h3>🧮 Calculadora de conversión</h3>
+								<h3> Calculadora de conversión</h3>
 								<CurrencyConverter />
 							</div>
 						</div>
@@ -206,7 +208,7 @@ export default function LandingPage() {
 				<div className="container">
 					<h2>First Exchange</h2>
 					<p>
-						Únete a First Exchange, y gana hasta un 30% devuelto al usar nuestra targeta en tus establecimientos favoritos.
+						Únete a First Exchange, y gana hasta un 30% devuelto al usar nuestra targeta en tus comercios favoritos.
 					</p>
 				</div>
 				<Link to="/signup" className="btn-primary">

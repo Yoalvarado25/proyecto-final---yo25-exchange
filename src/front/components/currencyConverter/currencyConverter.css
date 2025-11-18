@@ -66,7 +66,7 @@
   width: 100%;
   padding: 14px;
   background: linear-gradient(135deg, var(--color-blue-900), var(--color-blue-700));
-  color: #fff;
+  color: hwb(231 3% 48%);
   font-size: 16px;
   font-weight: 700;
   border: none;
@@ -81,17 +81,12 @@
   left: -30%;
   width: 30%;
   height: 200%;
-  background: linear-gradient(
-    120deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.35) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  
   transform: translateX(-150%) skewX(-20deg);
   pointer-events: none;
 }
 .converter-container button:hover:not(:disabled) {
-  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.28);
+  box-shadow: 0 8px 24px hwb(176 1% 17% / 0.902);
   animation: btn-float 220ms ease-out forwards;
 }
 .converter-container button:hover:not(:disabled)::after {
@@ -102,7 +97,7 @@
 }
 .converter-container button:disabled {
   background: color-mix(in srgb, var(--color-gold) 30%, #cfd6dc);
-  color: #f6f7f8;
+  color: hsl(181, 78%, 80%);
   cursor: not-allowed;
 }
 .converter-container p {

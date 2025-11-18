@@ -22,7 +22,7 @@ const HandBadge = ({ selected = false }) => (
       justifyContent: "center",
       background: selected
         ? "rgba(255,255,255,.22)"
-        : "color-mix(in srgb, var(--color-gold) 20%, transparent)",
+        : "color-mix(in srgb, var(--color-blue-900) 20%, transparent)",
       boxShadow: "0 1px 3px rgba(0,0,0,.18)",
       pointerEvents: "none",
     }}

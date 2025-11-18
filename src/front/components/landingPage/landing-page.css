@@ -77,7 +77,7 @@
 }
 
 .badge {
-  background: #fff;
+  background:hsl(166, 75%, 89%) ;
   padding: 0.5rem 1rem;
   border-radius: 25px;
   font-size: 0.9rem;
@@ -94,7 +94,7 @@
 }
 
 .value-card {
-  background: #fff;
+  background: hsl(166, 75%, 89%);
   padding: 1.25rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow-card);
@@ -129,7 +129,7 @@
   justify-content: center;
   font-size: 1.1rem;
   margin-bottom: 0.8rem;
-  color: #fff;
+  color:hsl(166, 75%, 89%) ;
 }
 
 .value-card h3 {
@@ -146,7 +146,7 @@
 }
 
 .features {
-  background: #fff;
+  background:hsl(166, 75%, 89%) ;
   padding: 3.5rem 1rem;
 }
 
@@ -188,7 +188,7 @@
 .feature-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
-  background: #fff;
+  background: hwb(166 47% 5%);
 }
 
 .feature-icon {
@@ -201,7 +201,7 @@
   justify-content: center;
   font-size: 1.75rem;
   margin: 0 auto 1.5rem;
-  color: #fff;
+  color:hsl(166, 75%, 89%) ;
 }
 
 .feature-card h3 {
@@ -217,35 +217,26 @@
 }
 
 .no-commission {
-  background: hsl(230, 96%, 19%);
+  background: hsl(217, 75%, 89%);
   padding: 3.5rem 1rem;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.no-commission::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: radial-gradient(
-    circle at 30% 30%,
-    rgba(255, 255, 255, 0.1) 0%,
-    transparent 50%
-  );
 }
 
 .no-commission h2 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #fff;
+  color:rgba(13, 235, 235, 0.605) ;
 }
 
 .no-commission p {
   font-size: 1rem;
   margin-bottom: 1.25rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: #0b118d;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -254,7 +245,7 @@
 .commission-comparison {
   display: inline-block;
   width: 20rem;
-  background: rgba(255, 255, 255, 0.15);
+  background:hsla(171, 93%, 43%, 0.984) ;
   backdrop-filter: blur(10px);
   padding: 1rem;
   border-radius: var(--radius);
@@ -267,16 +258,9 @@
   align-items: center;
   margin-bottom: 0.8rem;
   font-size: 1rem;
-  color: #fff;
+  color:whitesmoke ;
 }
 
-.comparison-row:last-child {
-  margin-bottom: 0;
-  font-weight: 700;
-  font-size: 1.15rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
-  padding-top: 0.8rem;
-}
 
 .tools {
   padding: 3.5rem 1rem;
@@ -291,7 +275,7 @@
 }
 
 .tool-placeholder {
-  background: #fff;
+  background: hsl(166, 75%, 89%);
   border: 2px solid var(--color-blue-900);
   padding: 1.5rem;
   border-radius: var(--radius);
@@ -306,7 +290,7 @@
 
 .tool-placeholder:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 30px hsl(166, 75%, 89%);
 }
 
 .tool-placeholder h3 {
@@ -344,14 +328,14 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #fff;
+  color:hsl(166, 75%, 89%) ;
   position: relative;
 }
 
 .cta-section p {
   font-size: 1rem;
   margin-bottom: 1.75rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: hsl(166, 75%, 89%);
   position: relative;
 }
 
@@ -360,11 +344,11 @@
   border: none;
   padding: 1rem 1.5rem;
   border-radius: var(--radius-btn);
-  color: #fff;
+  color: hsl(166, 75%, 89%);
   font-size: 1.05rem;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 6px 20px hsla(144, 65%, 52%, 0.3);
+  box-shadow: 0 6px 20px hwb(144 21% 17% / 0.512);
   text-decoration: none;
 }
 

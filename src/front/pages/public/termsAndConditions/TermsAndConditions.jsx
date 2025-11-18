@@ -6,13 +6,13 @@ export const TermsAndConditions = () => {
       <div className="terms-container">
         <article className="terms-content">
           <h1 className="terms-title">Términos y Condiciones de Uso</h1>
-          <p className="terms-updated"><strong>Última actualización:</strong> 30 de septiembre de 2025</p>
-          <p><strong>Plataforma:</strong> <span className="highlight">Hand to Hand</span></p>
+          <p className="terms-updated"><strong>Última actualización:</strong> 24 de noviembre de 2025</p>
+          <p><strong>Plataforma:</strong> <span className="highlight">First Exchange</span></p>
 
           <h2>1. Objeto del Servicio</h2>
           <p>
-            Hand to Hand es una plataforma digital cuyo propósito es poner en contacto a personas que deseen intercambiar divisas de forma particular, directa y voluntaria.
-            Hand to Hand <strong>no</strong> realiza intermediación financiera, no ejecuta ni procesa transacciones monetarias, ni actúa como casa de cambio, banco o entidad autorizada.
+            First Exchange es una plataforma digital financiera cuyo propósito es el intercambiar divisas de forma particular,empresarial, institucional.
+            First Exchange realiza intermediación financiera, ejecuta y procesa transacciones monetarias, actúa como casa de cambio, o entidad autorizada.
           </p>
 
           <h2>2. Condiciones de Uso</h2>
@@ -24,13 +24,13 @@ export const TermsAndConditions = () => {
 
           <h2>3. Naturaleza del Servicio</h2>
           <p>
-            Hand to Hand no gestiona, verifica ni valida los intercambios ni actúa como intermediario en ningún acuerdo entre usuarios.
-            Las herramientas informativas disponibles son meramente orientativas.
+            First Exchange gestiona, verifica, valida los intercambios de divisa, ya que actúa como intermediario.
+            Las herramientas informativas disponibles son meramente orientativas, cada quien invierte bajo su propio riezgo.
           </p>
 
           <h2>4. Limitación de Responsabilidad</h2>
           <p>
-            Hand to Hand no asume responsabilidad por pérdidas económicas, estafas, conflictos, ni incidentes ocurridos como resultado del uso de la plataforma.
+            First Exchange no asume responsabilidad por pérdidas económicas, conflictos, ni incidentes ocurridos como resultado del uso de la plataforma.
             Todo uso se realiza bajo exclusiva responsabilidad del usuario.
           </p>
 
@@ -42,7 +42,8 @@ export const TermsAndConditions = () => {
           <h2>6. Protección de Datos</h2>
           <p>
             Cumplimos con el Reglamento General de Protección de Datos (RGPD). Consulta nuestra Política de Privacidad para más información.
-            Puedes ejercer tus derechos escribiendo a <a href="mailto:privacidad@handtohand.exchange">privacidad@handtohand.exchange</a>.
+            Puedes ejercer tus derechos escribiendo a <a href="mailto:privacidad@first.exchange">privacidad@first.exchange</a>.
+
           </p>
 
           <h2>7. Modificaciones</h2>
@@ -58,12 +59,12 @@ export const TermsAndConditions = () => {
 
           <h2>9. Contacto</h2>
           <p>
-            Para cualquier consulta, puedes escribirnos a <a href="mailto:contacto@handtohand.exchange">contacto@handtohand.exchange</a>.
+            Para cualquier consulta, puedes escribirnos a <a href="mailto:contacto@First.exchange">contacto@first.exchange</a>.
           </p>
         </article>
 
         <aside className="terms-warning">
-          <strong>Advertencia:</strong> Hand to Hand no es una entidad financiera ni está autorizada como proveedor de servicios de pago.
+          <strong>Advertencia:</strong> First Exchange es una entidad financiera, está autorizada como proveedor de servicios de pago.
           Es responsabilidad del usuario cumplir con la normativa aplicable en materia de cambio de divisas.
         </aside>
       </div>

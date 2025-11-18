@@ -14,7 +14,6 @@ from api.mail_config import mail
 from api.admin import setup_admin
 from api.commands import setup_commands
 from flask_jwt_extended import JWTManager
-import cloudinary
 from flask_cors import CORS
 from api.routes.user_routes import user_bp
 from api.routes.rating_routes import rating_bp
@@ -101,14 +100,6 @@ app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD')
 app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_USERNAME')
 
 mail.init_app(app)
-
-# cloudinary
-cloudinary.config(
-    cloud_name=os.getenv('CLOUDINARY_CLOUD_NAME'),
-    api_key=os.getenv('CLOUDINARY_API_KEY'),
-    api_secret=os.getenv('CLOUDINARY_API_SECRET'),
-    secure=True
-)
 
 # Scoketio
 app.config['SECRET_KEY'] = os.getenv('SOCKET_SECRET_KEY')

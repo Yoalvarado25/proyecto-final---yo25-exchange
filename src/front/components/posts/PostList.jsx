@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import { useAuth } from "../../hooks/useAuth";
-import { getPosts, deletePost } from "../../services/postApi";
+import { getPosts } from "../../services/postApi";
 import { getUsers } from "../../services/userApi";
 import { StartChatButton } from "../startChatButton/StartChatButton";
 import "./postlist.css";
@@ -48,7 +48,7 @@ export const PostList = ({ refresh = 0 }) => {
 		});
 		if (!isConfirmed) return;
 
-		await deletePost(id, token);
+		//await deletePost(id, token);
 		setPosts((prev) => prev.filter((p) => p.id !== id));
 		Swal.fire({
 			icon: "success",
@@ -188,6 +188,7 @@ export const PostList = ({ refresh = 0 }) => {
 							<li key={post.id} className="post-item">
 								<div className="post-body-horizontal">
 									<div className="post-user">
+										<img src={author?.image || Perrete} alt="avatar" className="post-avatar" />
 										<h4 className="post-author">{author?.username}</h4>
 									</div>
 									<section className="post-info">

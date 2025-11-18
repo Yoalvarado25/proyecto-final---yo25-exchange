@@ -153,3 +153,49 @@ export const AuthProvider = ({ children }) => {
 			return null
 		}
 	}
+
+	const getUserProfile = async () => {
+		setLoading(true);
+		try {
+			let response = await fetch(`${urlApi}/users/profile`, {
+				headers: { Authorization: `Bearer ${token}` },
+			});
+
+			if (response.status === 401) {
+				const newAccess = await refreshAccess();
+				if (newAccess) {
+					response = await fetch(`${urlApi}/users/profile`, {
+						headers: { Authorization: `Bearer ${newAccess}` },
+					});
+				} else {
+
+					return;
+				}
+			}
+
+			const data = await response.json();
+			if (!response.ok) throw new Error(data.error || data.msg || "Error al traer el Usuario");
+			setUser(data);
+		} catch (e) {
+			setError(e.message);
+		} finally {
+			setLoading(false);
+		}
+	};
+
+	useEffect(() => {
+		if (token) {
+			getUserProfile()
+		}
+	}, [token])
+
+	return (
+		<AuthContext.Provider value={{ user, token, loading, error, signUp, login, logout, refreshUser: getUserProfile }}>{children}</AuthContext.Provider>
+	)
+}
+
+export const useAuth = () => {
+	return useContext(AuthContext)
+}
+
+

@@ -62,7 +62,7 @@ html.dark .msg-bubble--other {
   font-weight: 700;
   margin-bottom: 2px;
   opacity: 0.75;
-  color: var(--color-gold)
+  color: var(--color-blue-900)
 }
 
 .msg-image-link {

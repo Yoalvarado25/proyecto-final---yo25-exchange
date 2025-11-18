@@ -7,8 +7,8 @@ export const PrivacyPolicy = () => {
         <div className="privacy-container">
           <article className="privacy-content">
             <h1 className="privacy-title">Política de Privacidad</h1>
-            <p className="privacy-updated"><strong>Última actualización:</strong> 17 de Noviembre de 2025</p>
-            <p><strong>Plataforma:</strong> <span className="highlight">Hand to Hand</span></p>
+            <p className="privacy-updated"><strong>Última actualización:</strong> 24 de Noviembre de 2025</p>
+            <p><strong>Plataforma:</strong> <span className="highlight">First Exchange</span></p>
 
             <h2>1. Responsable del Tratamiento</h2>
             <p>

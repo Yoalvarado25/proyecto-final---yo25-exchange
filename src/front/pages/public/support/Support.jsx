@@ -9,7 +9,7 @@ export const Support = () => {
           <article className="support-content">
             <h1 className="support-title">Centro de Soporte</h1>
             <p className="support-updated">
-              <strong>Última actualización:</strong> 17 de Noviembre de 2025
+              <strong>Última actualización:</strong> 24 de Noviembre de 2025
             </p>
             <a className="btn btn-outline-warning">Ir al chatbot</a>
             <p>
@@ -29,7 +29,7 @@ export const Support = () => {
                 <strong>¿Qué pasa si tengo un problema con otro usuario?</strong><br />
                 Te recomendamos contactar directamente con el otro usuario e
                 intentar resolver la situación de forma amistosa. FirstExchange no
-                media ni valida los acuerdos entre partes.
+                interviene en desacuerdos con otros usuarios.
               </li>
               <li>
                 <strong>¿Puedo eliminar mi cuenta?</strong><br />

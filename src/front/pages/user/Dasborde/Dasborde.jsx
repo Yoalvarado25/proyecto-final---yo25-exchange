@@ -257,7 +257,7 @@ export const Dasborde = () => {
             {uploading ? (
               <div className="loader-image"></div>
             ) : (
-              <img src={user.image || Perrete} alt="Foto de perfil" className="profile-avatar" />
+              <img src={user.image } alt="Foto de perfil" className="profile-avatar" />
             )}
             <button
               type="button"
@@ -350,7 +350,7 @@ export const Dasborde = () => {
                         <div className="detail">
                           <div className="value">
                             <span>{post.divisas_one}</span>
-                            <Send size={18} className="text-gold" />
+                            <Send size={18} className="text-blue" />
                             <span>{post.divisas_two}</span>
                           </div>
                         </div>
