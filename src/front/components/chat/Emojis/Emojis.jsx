@@ -49,7 +49,7 @@ export default function Emojis({ getEmojis }) {
 					className='emoji-btn'
 					onClick={() => setShowPicker(prev => !prev)}
 				>
-					<SmilePlus size={35} color="hwb(248 0% 0%)" strokeWidth={2} />
+					<SmilePlus size={35} color="rgba(12, 202, 186, 1)" strokeWidth={2} />
 				</span>
 			</div>
 			{showPicker && (

@@ -19,7 +19,7 @@
   width: 100%;
   max-width: 420px;
   border: 1px solid rgba(44, 62, 80, 0.12);
-  border-top: 4px solid var(--color-blue-900);
+  border-top: 4px solid var(--color-aqua-900);
 }
 
 .signup-title {
@@ -42,7 +42,7 @@
 }
 
 .signup-input:focus {
-  border-color: var(--color-blue-900);
+  border-color: var(--color-aqua-900);
   outline: none;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.25);
 }
@@ -85,7 +85,7 @@
 }
 
 .signup-link:hover {
-  color: var(--color-blue-900);
+  color: var(--color-aqua-900);
 }
 
 @media (min-width: 320px) {
@@ -120,8 +120,8 @@
 }
 
 .signup-form input[type="checkbox"]:checked {
-  background-color: var(--color-blue-900);
-  border-color: var(--color-blue-900);
+  background-color: var(--color-aqua-900);
+  border-color: var(--color-aqua-500);
 }
 
 .signup-form input[type="checkbox"]:checked::after {

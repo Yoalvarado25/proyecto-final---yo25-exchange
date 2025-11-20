@@ -75,7 +75,7 @@ export default function ScoreManager() {
       margin: "0 auto",
       textAlign: "left"
     }}>
-      <h2 style={{ textAlign: "center", marginBottom: "1rem", color: "var(--color-blue-900)" }}>
+      <h2 style={{ textAlign: "center", marginBottom: "1rem", color: "var(--color-aqua-900)" }}>
         ¿Qué opinas de  este  usuario {user?.username}?
       </h2>
 

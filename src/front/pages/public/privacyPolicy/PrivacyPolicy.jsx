@@ -31,7 +31,7 @@ export const PrivacyPolicy = () => {
             <h2>3. Finalidad del Tratamiento</h2>
             <ul>
               <li>Gestionar cuentas de usuario</li>
-              <li>Facilitar intercambios entre usuarios</li>
+              <li>Realizar intercambios de divisas</li>
               <li>Enviar comunicaciones del servicio</li>
               <li>Mejorar la plataforma</li>
               <li>Cumplir obligaciones legales</li>

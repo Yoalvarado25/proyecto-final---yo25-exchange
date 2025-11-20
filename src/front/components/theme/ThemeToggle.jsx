@@ -17,7 +17,7 @@ export default function ThemeToggle() {
             aria-pressed={isDarkMode}
             aria-label="Cambiar tema"
         >
-            {isDarkMode ? <Moon size={32} color="#ffffff" absoluteStrokeWidth /> : <Sun size={32} color="hsl(71, 100%, 50%)" absoluteStrokeWidth /> }
+            {isDarkMode ? <Moon size={32} color="#ffffff" absoluteStrokeWidth /> : <Sun size={32} color="#17e7dcff" absoluteStrokeWidth /> }
         </button>
     );
 }

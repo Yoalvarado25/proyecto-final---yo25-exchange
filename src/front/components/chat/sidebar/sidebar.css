@@ -54,8 +54,8 @@
 }
 
 .chat-item.is-active {
-  background: color-mix(in srgb, var(--color-gold) 12%, var(--color-bg-1) 88%);
-  border-color: color-mix(in srgb, var(--color-gold) 35%, var(--color-border));
+  background: color-mix(in srgb, var(--color-aqua) 12%, var(--color-bg-1) 88%);
+  border-color: color-mix(in srgb, var(--color-aqua) 35%, var(--color-border));
 }
 
 .chat-item__left {

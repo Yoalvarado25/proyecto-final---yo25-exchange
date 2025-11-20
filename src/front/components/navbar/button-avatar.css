@@ -48,8 +48,8 @@
   justify-content: center;
 
   font-weight: 700;
-  color: var(--color-blue-900, hwb(248 0% 0%));
-  background: color-mix(in srgb, var(--color-blue-900, hwb(248 0% 0%)) 10%, #ffffff);
+  color: var(--color-Aqua-900, hsl(173, 83%, 72%));
+  background: color-mix(in srgb, var(--color-aqua-900,hsl(173, 83%, 72%) ) 10%, #ffffff);
 }
 
 @media (max-width: 560px) {

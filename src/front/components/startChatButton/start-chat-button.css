@@ -11,7 +11,7 @@
   font-size: 0.9rem;
   cursor: pointer;
   overflow: hidden;
-  background-color: var(--color-blue-900);
+  background-color: var(--color-aqua-900);
   background-size: 200% 100%;
   transition: background-position 0.5s ease;
 }

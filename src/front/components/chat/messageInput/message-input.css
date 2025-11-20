@@ -82,7 +82,7 @@
 }
 
 .msg-input__field:focus {
-  border-color: var(--color-blue);
+  border-color: var(--color-aqua);
   box-shadow: 0 0 0 3px var(--input-ring);
 }
 
@@ -90,7 +90,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, var(--color-blue-900), var(--color-blue-700));
+  background: linear-gradient(90deg, var(--color-aqua-500), var(--color-aqua-900));
   color: #fff;
   border: none;
   border-radius: 20px;

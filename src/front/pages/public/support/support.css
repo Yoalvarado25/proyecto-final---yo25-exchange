@@ -27,7 +27,7 @@
 .support-title {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: var(--color-gold);
+  color: var(--color-aqua);
 }
 
 .support-updated {
@@ -58,13 +58,13 @@
 }
 
 .highlight {
-  color: var(--color-gold-2);
+  color: var(--color-aqua-500);
   font-weight: bold;
 }
 
 .support-tip {
   background: var(--color-surface);
-  border-left: 4px solid var(--color-gold);
+  border-left: 4px solid var(--color-aqua);
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-card);
   border-radius: var(--radius);

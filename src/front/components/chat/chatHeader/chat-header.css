@@ -104,7 +104,7 @@
 
 .chat-header__older-btn:hover {
   background: var(--color-bg-2);
-  border-color: var(--color-blue-900);
+  border-color: var(--color-aqua);
 }
 
 @media (max-width: 639px) {

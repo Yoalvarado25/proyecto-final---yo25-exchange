@@ -36,13 +36,13 @@
 .score-label {
   font-size: 1rem;
   font-weight: bold;
-  color: var(--color-blue-900);
+  color: var(--color-aqua-900);
   margin: 0;
 }
 
 .thank-you {
   margin-top: 0.5rem;
-  color: var(--color-blue-900);
+  color: var(--color-aqua-900);
   font-weight: 500;
   font-size: 1rem;
   animation: fadeIn 0.4s ease forwards;
@@ -99,7 +99,7 @@
 
 .bar-fill {
   height: 100%;
-  background-color: var(--color-blue-900);
+  background-color: var(--color-aqua-900);
   transition: width 0.3s ease;
 }
 

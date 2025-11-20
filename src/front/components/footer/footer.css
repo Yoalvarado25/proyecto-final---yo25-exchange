@@ -26,7 +26,7 @@ footer {
 }
 
 .footer-links a:hover {
-  color: var(--color-blue-900);
+  color: var(--color-aqua-900);
 }
 
 /* >=1024px */

@@ -19,7 +19,7 @@ export const TermsAndConditions = () => {
           <ul>
             <li>El uso de la plataforma implica aceptación total de estos términos.</li>
             <li>Solo usuarios mayores de 18 años pueden registrarse.</li>
-            <li>El usuario es responsable de la información que proporciona y de los acuerdos que celebre con otros usuarios.</li>
+            <li>El usuario es responsable de la información que proporciona.</li>
           </ul>
 
           <h2>3. Naturaleza del Servicio</h2>
